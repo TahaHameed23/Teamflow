@@ -1,0 +1,32 @@
+{
+  "bundler": "vite",
+  "projectName": "teamflow",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "bun",
+  "includeExamples": false,
+  "tailwind": true,
+  "projectPreset": "default",
+  "routerOnly": false,
+  "addOnOptions": {
+    "drizzle": {
+      "database": "postgresql"
+    }
+  },
+  "git": true,
+  "install": true,
+  "intent": true,
+  "version": 1,
+  "framework": "react",
+  "chosenAddOns": [
+    "biome",
+    "cloudflare",
+    "ai",
+    "db",
+    "drizzle",
+    "shadcn",
+    "better-auth",
+    "tanstack-query",
+    "store"
+  ]
+}
